@@ -5,8 +5,11 @@
 #If the position is free, the method should return false (i.e. "not taken"); 
 #otherwise it will return true.
 
-def position_taken?()
-
+def position_taken?(board,[index])
+ 
+ if board[index] == " "
+   return false
+ elsif   
 
 
 
